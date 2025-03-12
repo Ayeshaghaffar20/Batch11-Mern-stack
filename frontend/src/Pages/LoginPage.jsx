@@ -80,8 +80,7 @@ const Login = () => {
 							<button
 								type='button'
 								className='absolute right-3 top-1/2 transform -translate-y-1/2 text-gray-600 focus:outline-none'
-								onClick={() => setShowPassword(!showPassword)}
-							>
+								onClick={() => setShowPassword(!showPassword)}>
 								{showPassword ? <FaEyeSlash /> : <FaEye />}
 							</button>
 						</div>

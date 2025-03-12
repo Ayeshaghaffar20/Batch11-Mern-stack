@@ -3,10 +3,11 @@ import React from 'react';
 const About = () => {
 	return (
 		<div className='container mx-auto my-28 px-4'>
+			<h1 className='text-4xl text-center md:text-5xl font-bold mb-6 text-gray-900'>Hi. We’re Glamora </h1>
 			<div className='flex flex-col md:flex-row items-center justify-between'>
 				{/* Text Content */}
 				<div className='w-full md:w-1/2 mb-8 md:mb-0'>
-					<h1 className='text-4xl md:text-5xl font-bold mb-6 text-gray-900'>Welcome to Glamora</h1>
+					
 					<p className='text-lg text-gray-800 leading-relaxed'>
 						At <span className='font-semibold text-[#e57312]'>Glamora</span>, we believe that makeup is more than just a
 						product—it's a way to express yourself, enhance your natural beauty, and feel confident in your own skin.
